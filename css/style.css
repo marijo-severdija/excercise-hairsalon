@@ -1,0 +1,225 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: rgb(48, 53, 58);
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-dialog,
+.modal-header,
+.modal-body,
+.modal-footer  {
+    border: none;
+}
+
+.modal-content {
+    background-color: #c7c7c9;
+}
+
+.modal-body-img {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-body-img img {
+    width: 200px;
+    margin-top: 40px;
+    border: 1px solid #4c4c4d;
+    box-shadow: 0 0 10px #4c4c4d;
+}
+
+#about {
+    margin-right: 10px;
+}
+
+.btn-dark {
+    border-color:rgb(212, 211, 211);
+    color: rgb(212, 211, 211);
+}
+
+.btn-dark:hover {
+    border-color:rgb(212, 211, 211);
+    background-color: white;
+    color:rgb(48, 53, 58);
+}
+
+.btn-outline-success {
+    color: rgb(212, 211, 211);
+    border-color: rgb(212, 211, 211);
+}
+
+.btn-outline-success:hover {
+    color: rgb(48, 53, 58);
+    background-color: white;
+    border-color: rgb(212, 211, 211);
+}
+
+.card-box-title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: rgb(212, 211, 211);
+    border-top: 1px solid #c7c7c9;
+}
+
+.card-box-title h1 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.card {
+    /*background-color: rgb(85, 84, 84);*/
+    color: rgb(212, 211, 211);
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px white;
+}
+
+.card-1 {
+    background-image: url("/img/pexels-kehinde-ogunsanya-4297233_2.jpg");
+    background-size: cover;
+}
+
+
+.card-2 {
+    background-image: url("/img/pexels-polina-tankilevitch-6939173_2.jpg");
+    background-size: cover;
+}
+
+.card-3 {
+    background-image: url("/img/pexels-cottonbro-3993447_2.jpg");
+    background-size: cover;
+}
+
+.card-title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-title {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card img {
+    width: 50px;
+    align-self:flex-end;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.card-body {
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.appointment-box {
+    color: rgb(212, 211, 211);
+    margin: 0 auto;
+    margin-top: 40px;
+    border-top: 1px solid #c7c7c9;
+}
+
+.appointment-col-md {
+    padding: 0 40px;
+}
+
+.appointment-box-title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-12 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.col-12 button {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.row-table {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.faq-box {
+    color: rgb(212, 211, 211);
+    border-top: 1px solid #c7c7c9;
+    margin-top: 20px;
+}
+
+.faq-box-title {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-box-body {
+    width: 90%;   
+    margin: 0 auto;
+}
+
+.accordion-header button {
+    font-weight: bold;
+    
+}
+
+.accordion-button:not(.collapsed) {
+    color:rgb(212, 211, 211);
+    background-color: #4c4c4d;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #4c4c4d;;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #4c4c4d;
+}
+
+.accordion-body {
+    color: rgb(48, 53, 58);
+}
+
+.footer-img {
+    width: 150px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    color:rgb(212, 211, 211);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-top: 1px solid #c7c7c9;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color:rgb(212, 211, 211);
+}
+
+.footer-text {
+    padding-left: 100px;
+    margin-top: 30px;
+}
